@@ -1,0 +1,6 @@
+framework module IDLib {
+  umbrella header "IDLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
