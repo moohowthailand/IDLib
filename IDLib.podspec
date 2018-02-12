@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IDLib'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'xxx xxx xxx xx xx'
 
 # This description is used to generate tags and improve search results.
