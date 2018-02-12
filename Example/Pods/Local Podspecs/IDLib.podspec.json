@@ -2,8 +2,8 @@
   "name": "IDLib",
   "version": "0.1.0",
   "summary": "A short description of IDLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Soemsak Loetphornphisit/IDLib",
+  "description": "Add long description of the pod here. xxx.xxx.",
+  "homepage": "https://github.com/moohowthailand/IDLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,15 @@
     "Soemsak Loetphornphisit": "soemsakplus@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Soemsak Loetphornphisit/IDLib.git",
+    "git": "https://github.com/moohowthailand/IDLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "IDLib/Classes/**/*"
+  "source_files": "IDLib/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }

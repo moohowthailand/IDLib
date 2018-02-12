@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D29FFA974760D0061D05637 /* Pods_IDLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2AEF335502C153C518D301 /* Pods_IDLib_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		661725AE2031A3FA00C950CF /* Pods_IDLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661725AF2031A3FA00C950CF /* Pods_IDLib_Tests.framework */; };
+		661725B82031A5AA00C950CF /* IDLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661725B92031A5AA00C950CF /* IDLib.framework */; };
 		7681DF741F67FE07D6106CF7 /* Pods_IDLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0F5AB20B5CB02D65777953 /* Pods_IDLib_Tests.framework */; };
-		B70CF2CA008EB7C7AAD6FCDD /* Pods_IDLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2AEF335502C153C518D301 /* Pods_IDLib_Example.framework */; };
+		783299A1182C56F0CEEB00DF /* Pods_IDLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661725AF2031A3FA00C950CF /* Pods_IDLib_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +33,8 @@
 /* Begin PBXFileReference section */
 		2E0CF6CC190A2291AC99A691 /* Pods-IDLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDLib_Tests/Pods-IDLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E0F5AB20B5CB02D65777953 /* Pods_IDLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		416C227FE96FC7350D3EE541 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5BE0EB7F68817BA3AF75A4AF /* IDLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IDLib.podspec; path = ../IDLib.podspec; sourceTree = "<group>"; };
+		416C227FE96FC7350D3EE541 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5BE0EB7F68817BA3AF75A4AF /* IDLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IDLib.podspec; path = ../IDLib.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* IDLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +45,10 @@
 		607FACE51AFB9204008FA782 /* IDLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		661725AF2031A3FA00C950CF /* Pods_IDLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_IDLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661725B92031A5AA00C950CF /* IDLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IDLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A7DD85375413A349A7ADCBD /* Pods-IDLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDLib_Example/Pods-IDLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6ADEEA825BE38C52510E8863 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6ADEEA825BE38C52510E8863 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		979986AE38FCD9D497B53783 /* Pods-IDLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDLib_Tests/Pods-IDLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2BD82C00D24EBD0B299756A /* Pods-IDLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDLib_Example/Pods-IDLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FE2AEF335502C153C518D301 /* Pods_IDLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B70CF2CA008EB7C7AAD6FCDD /* Pods_IDLib_Example.framework in Frameworks */,
+				661725B82031A5AA00C950CF /* IDLib.framework in Frameworks */,
+				661725AE2031A3FA00C950CF /* Pods_IDLib_Tests.framework in Frameworks */,
+				4D29FFA974760D0061D05637 /* Pods_IDLib_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7681DF741F67FE07D6106CF7 /* Pods_IDLib_Tests.framework in Frameworks */,
+				783299A1182C56F0CEEB00DF /* Pods_IDLib_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +80,8 @@
 		307BE1C955055F8B0817C2B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				661725B92031A5AA00C950CF /* IDLib.framework */,
+				661725AF2031A3FA00C950CF /* Pods_IDLib_Tests.framework */,
 				FE2AEF335502C153C518D301 /* Pods_IDLib_Example.framework */,
 				3E0F5AB20B5CB02D65777953 /* Pods_IDLib_Tests.framework */,
 			);
@@ -215,6 +225,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K29ACE56SR;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -526,6 +537,7 @@
 			baseConfigurationReference = 6A7DD85375413A349A7ADCBD /* Pods-IDLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K29ACE56SR;
 				INFOPLIST_FILE = IDLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -541,6 +553,7 @@
 			baseConfigurationReference = E2BD82C00D24EBD0B299756A /* Pods-IDLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K29ACE56SR;
 				INFOPLIST_FILE = IDLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
