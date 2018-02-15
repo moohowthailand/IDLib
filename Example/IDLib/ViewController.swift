@@ -8,9 +8,11 @@
 
 import UIKit
 import IDLib
+import PaiLikeButton
 
 class ViewController: UIViewController {
     var user: IDUser!
+    var user2: PaiUser!
     override func viewDidLoad() {
         super.viewDidLoad()
     }

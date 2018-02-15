@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'IDLib_Example' do
   pod 'IDLib', :path => '../'
+  pod 'PaiLikeButton'
 
   target 'IDLib_Tests' do
     inherit! :search_paths

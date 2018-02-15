@@ -1,7 +1,7 @@
 {
   "name": "IDLib",
-  "version": "0.1.0",
-  "summary": "A short description of IDLib.",
+  "version": "0.3.0",
+  "summary": "xxx xxx xxx xx xx",
   "description": "Add long description of the pod here. xxx.xxx.",
   "homepage": "https://github.com/moohowthailand/IDLib",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/moohowthailand/IDLib.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"

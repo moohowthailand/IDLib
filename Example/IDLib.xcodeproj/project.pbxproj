@@ -16,6 +16,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		661725AE2031A3FA00C950CF /* Pods_IDLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661725AF2031A3FA00C950CF /* Pods_IDLib_Tests.framework */; };
 		661725B82031A5AA00C950CF /* IDLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661725B92031A5AA00C950CF /* IDLib.framework */; };
+		661B392C2032AE3C00DACE77 /* PaiLikeButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661B392D2032AE3C00DACE77 /* PaiLikeButton.framework */; };
 		7681DF741F67FE07D6106CF7 /* Pods_IDLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0F5AB20B5CB02D65777953 /* Pods_IDLib_Tests.framework */; };
 		783299A1182C56F0CEEB00DF /* Pods_IDLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661725AF2031A3FA00C950CF /* Pods_IDLib_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		661725AF2031A3FA00C950CF /* Pods_IDLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_IDLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		661725B92031A5AA00C950CF /* IDLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IDLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661B392D2032AE3C00DACE77 /* PaiLikeButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PaiLikeButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A7DD85375413A349A7ADCBD /* Pods-IDLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDLib_Example/Pods-IDLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6ADEEA825BE38C52510E8863 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		979986AE38FCD9D497B53783 /* Pods-IDLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDLib_Tests/Pods-IDLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661B392C2032AE3C00DACE77 /* PaiLikeButton.framework in Frameworks */,
 				661725B82031A5AA00C950CF /* IDLib.framework in Frameworks */,
 				661725AE2031A3FA00C950CF /* Pods_IDLib_Tests.framework in Frameworks */,
 				4D29FFA974760D0061D05637 /* Pods_IDLib_Example.framework in Frameworks */,
@@ -80,6 +83,7 @@
 		307BE1C955055F8B0817C2B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				661B392D2032AE3C00DACE77 /* PaiLikeButton.framework */,
 				661725B92031A5AA00C950CF /* IDLib.framework */,
 				661725AF2031A3FA00C950CF /* Pods_IDLib_Tests.framework */,
 				FE2AEF335502C153C518D301 /* Pods_IDLib_Example.framework */,
@@ -358,10 +362,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IDLib_Example/Pods-IDLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IDLib/IDLib.framework",
+				"${BUILT_PRODUCTS_DIR}/PaiLikeButton/PaiLikeButton.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PaiLikeButton.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

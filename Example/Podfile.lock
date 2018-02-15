@@ -4,13 +4,14 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - IDLib (0.1.0)
-  - Nimble (7.0.2)
+  - IDLib (0.3.0)
+  - Nimble (7.0.3)
   - Nimble-Snapshots (6.3.0):
     - Nimble-Snapshots/Core (= 6.3.0)
   - Nimble-Snapshots/Core (6.3.0):
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
+  - PaiLikeButton (0.1.1)
   - Quick (1.2.0)
 
 DEPENDENCIES:
@@ -18,6 +19,7 @@ DEPENDENCIES:
   - IDLib (from `../`)
   - Nimble (~> 7.0.2)
   - Nimble-Snapshots (~> 6.3.0)
+  - PaiLikeButton
   - Quick (~> 1.2.0)
 
 EXTERNAL SOURCES:
@@ -26,11 +28,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  IDLib: a45dfb67dfa42959e25b08f29d7a0490e1cf3e4d
-  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  IDLib: 76adcb8a43ce45892df41b85763238f0df09a2e8
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  PaiLikeButton: dff3d80cafa3434475dd2c9552215d426a9d6c6b
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: 492de4599f985cd38270ba694894621211702fe8
+PODFILE CHECKSUM: c7fa04d0900810510f096b8b08a57c8679ceee51
 
 COCOAPODS: 1.3.1
